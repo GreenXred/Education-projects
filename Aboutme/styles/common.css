@@ -1,0 +1,21 @@
+* {
+    font-family: Manrope;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    background: #140E17;
+    padding: 64px 20px 220px 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
