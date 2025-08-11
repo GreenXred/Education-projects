@@ -52,6 +52,10 @@ h3 {
     color: black;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    font-weight: 600;
 
 }
 
@@ -109,7 +113,7 @@ h3 {
 .company {
     font-weight: 500;
     font-size: 24px;
-    line-height: 28px; 
+    line-height: 28px;
 }
 
 .company .period {
@@ -124,7 +128,7 @@ h3 {
     font-size: 18px;
     line-height: 26px;
     color: #76757B;
-    
+
 }
 
 .job .position {
@@ -191,7 +195,11 @@ h3 {
     text-decoration: none;
     color: black;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
 }
+
 @media screen and (max-width: 768px) {
     .about-me {
         gap: 56px;
@@ -230,11 +238,12 @@ h3 {
     .social-link {
         flex-basis: 150px;
     }
+
     .portfolio .items .item {
         flex-direction: column;
         gap: 24px;
     }
-    
+
     .project-photo {
         flex-basis: auto;
     }
