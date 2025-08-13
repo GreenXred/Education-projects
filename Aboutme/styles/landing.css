@@ -593,7 +593,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-width: 352px;
+    max-width: 235px;
     width: 100%;
 } 
 
@@ -603,7 +603,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 352px;
+    max-width: 220px;
     width: 100%;
 }
 
