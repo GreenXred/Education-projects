@@ -654,8 +654,16 @@ display: flex;
         margin-top: 0;
     }
 
+    .quick-reg-field {
+        margin-top: 50px;
+    }
+
     .quick-reg-field .quick-reg-input {
         margin-top: 64px;
+    }
+
+    .create-page-button {
+        margin-left: 13px;
     }
 
     .about-features .features-column {
