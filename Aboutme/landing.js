@@ -6,5 +6,9 @@ function burgerClicked(brg) {
   document.querySelector('.quicklink').hidden = !document.querySelector('.quicklink').hidden
 }
 
-
-
+document.querySelectorAll('.row-title').forEach(summary => {
+  summary.addEventListener('click', function () {
+    const plusEl = this.querySelector('.plus');
+    plusEl.textContent = plusEl.textContent === '+' ? '−' : '+';
+  });
+});
