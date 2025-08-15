@@ -13,6 +13,10 @@ h3 {
     margin-top: 64px;
 }
 
+.ml-24 {
+    margin-left: 24px;
+}
+
 .about-me {
     display: flex;
     align-items: center;
@@ -43,6 +47,10 @@ h3 {
     line-height: 28px;
 }
 
+.centering-button {
+    width: 100%;
+}
+
 .write-button {
     margin-top: 42px;
     background: #F5FA93;
@@ -53,8 +61,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
-    gap: 60px;
+    justify-content: space-between;
     font-weight: 600;
 
 }
@@ -74,6 +81,11 @@ h3 {
     color: white;
     text-decoration: none;
     max-width: 232px;
+    width: 100%;
+    text-align: center;
+}
+
+.social-name {
     width: 100%;
 }
 
@@ -196,8 +208,7 @@ h3 {
     color: black;
     text-align: center;
     display: flex;
-    justify-content: flex-end;
-    gap: 8px;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
