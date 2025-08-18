@@ -335,6 +335,10 @@ display: flex;
     font-size: 12px;
 }
 
+.about-me-conteiner .about-me .item .project-photo {
+    width: 100%;
+}
+
 .about-me-conteiner .about-me .write-me {
     display: flex;
     position: absolute;
@@ -344,9 +348,13 @@ display: flex;
     border: 2px solid #333333;
     border-radius: 24px;
     padding: 30px 72px;
-    width: 100%;
     align-items: center;
-    margin: 74px 171px 115px 171px;
+    transform: translate(0%, 22%);
+}
+
+.about-me-conteiner .about-me .write-me .photo .my-photo {
+    width: 100%;
+    margin: auto;
 }
 
 .about-me-conteiner .about-me .write-me .short-discription {
@@ -616,7 +624,9 @@ display: flex;
 
 .feedback-logo {
     display: flex;
-    justify-content: flex-end;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 
@@ -672,12 +682,13 @@ display: flex;
     }
 
     .about-me-conteiner .about-me .work-expirience {
-        margin: 76px 0 0 36px;
+        margin: 76px 0 0 10px;
     }
 
     
     .about-me-conteiner .about-me .item {
         margin-right: 36px;
+        align-self: end;
     }
     
     .about-me-conteiner .about-me .write-me {
@@ -700,12 +711,42 @@ display: flex;
 
 }
 
+@media screen and (max-width: 620px) {
+    .about-me-conteiner .about-me .write-me {
+        transform: translate(0%, 100%);
+    }
+
+}
+
 @media screen and (max-width: 570px) {
 
     .quick-reg-field .quick-reg-form .info .title .text-title {
         font-size: 42px;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .main-banner {
+        right: -38px;
+    }
+    .about-me-conteiner .about-me {
+        gap: 25px;
+    }
+    .about-me-conteiner .about-me .write-me {
+        transform: translate(2%, 122%);
+    }
+
+    .about-me-conteiner .about-me .item {
+        border-radius: 32px;
+    }
+
+    .about-me-conteiner .about-me .item .project .project-description {
+        font-size: 11px;
+    }
+
+}
+
 
 
 
